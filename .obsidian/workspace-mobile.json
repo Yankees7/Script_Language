@@ -1,0 +1,137 @@
+{
+  "main": {
+    "id": "c2b0da0f6ddf88fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "f7331b1956991f59",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "87a4e567b9948bd6",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "K8S/pictures/传统部署.png"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a25d03c66e630992",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "6299087fc17d7412",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "ccfdd5aee115f5e2",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "5a8b09b16fcf2558",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "f0be464f84a44a76",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "2859094542dd5e79",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "e0771af37b597399",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "K8S/pictures/传统部署.png",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "f1468412882a21c3",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "K8S/pictures/传统部署.png",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "0a49e507f4dac70c",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "K8S/pictures/传统部署.png"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "87a4e567b9948bd6",
+  "lastOpenFiles": [
+    "K8S/01_应用部署的三大阶段.md",
+    "Linux/chroot/commands.md"
+  ]
+}

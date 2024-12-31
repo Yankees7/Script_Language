@@ -1,0 +1,26 @@
+# 生成.npmrc文件；特别是window下可用此命令生成.npmrc文件
+npm config edit
+
+# npm安装时打印详细信息
+npm install --verbose  == npm i --verbose
+npm run build # npm构建
+
+npm cache clean --force # 清除缓存
+
+npm config get cache # 查看缓存目录
+npm config set cache  
+
+npm config get prefix # 查看全局安装地址
+npm config set prefix
+
+npm get registry # 查看镜像源
+
+
+.npmrc:
+strict-ssl=false
+no-proxy=.aliyun.com
+registry=https://www.aliyun.com/artifact/api/npm-central-repo/
+@iux:registry=xxxx
+electron_mirror="http://mirrors.tools.huawei.com/electron/"
+prefix=/home/slave1/node_global
+cache=/home/slave1/.cache

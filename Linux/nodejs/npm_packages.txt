@@ -1,0 +1,21 @@
+# 查看该包的所有版本及最新版本
+# 举例 jquery
+npm info jquery
+
+# 查看npm服务器上所有的jquery 
+npm view jquery versions
+# 查看npm服务器上最新的jquery
+npm view jquery version
+
+
+# 查看某个项目安装的jQuery，命令必须在某个项目下执行
+npm ls jquery 
+# 查看全局安装的jquery
+npm ls jquery -g
+
+# npm升级
+npm install -g npm
+# 更新指定版本
+npm install -g npm@6.8.0
+# 删除指定版本和包
+npm unpublish dzmtest@1.0.1 --force

@@ -1,0 +1,19 @@
+[user]
+	name = yentrance
+	email = yentrance@163.com
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[credential "https://gitee.com"]
+	provider = generic
+[alias]
+	co = checkout
+	br = branch
+	cm = commit
+	st = status
+	ps = push
+	unstage = reset HEAD --
+	last = log -1
+	lo = log --oneline
